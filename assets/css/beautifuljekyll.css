@@ -13,7 +13,7 @@ html {
 body {
   font-family: 'Inconsolata', 'Times New Roman', serif;
   font-size: 1.125rem;
-  color: {{ site.text-col | default: "#010106" }};
+  color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
@@ -123,7 +123,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#eec0c8" }};
+  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -191,7 +191,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: {{ site.navbar-text-col | default: "#010106" }};
+  color: {{ site.navbar-text-col | default: "#404040" }};
 }
 
 .navbar-toggler {
@@ -262,10 +262,10 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: {{ site.navbar-col | default: "#eec0c8" }};
+  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
   text-decoration: none !important;
   font-weight: normal;
-  color: {{ site.navbar-text-col | default: "#010106" }};
+  color: {{ site.navbar-text-col | default: "#404040" }};
   {% unless site.navbar-var-length %}
   white-space: normal;
   {% endunless %}
@@ -384,7 +384,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#eec0c8" }};
+  background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
@@ -396,7 +396,7 @@ footer p.text-muted {
 }
 
 footer a {
-  color: {{ site.footer-link-col | default: "#010106" }};
+  color: {{ site.footer-link-col | default: "#404040" }};
 }
 
 footer a:hover,
@@ -812,7 +812,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 0.625rem 0.3125rem;
   background-color: #FFF;
   border-radius: 0;
-  color: {{ site.text-col | default: "#010106" }};
+  color: {{ site.text-col | default: "#404040" }};
 }
 @media (min-width: 768px) {
   .pagination .page-item .page-link {
