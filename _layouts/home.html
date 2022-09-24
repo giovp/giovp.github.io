@@ -2,30 +2,10 @@
 layout: page
 ---
 
-<p>I&#39;m a PhD student in <a
-    href="https://www.helmholtz-munich.de/icb/research/labs/machine-learning/overview/index.html">Fabian Theis&#39;
-    group</a>, at the <a href="https://www.helmholtz-munich.de/computational-health-center/index.html">Computational
-    Health Center, Helmholtz Munich, Germany</a>
-  and the <a href="https://www.mu-ds.de/">Munich School for Data Science</a>.</p>
-<h3 id="news">News</h3>
-<ul>
-  <li><strong>[September 2022]</strong> I will give a talk at the <a href="https://eccb2022.org/ntb-w04/">ECCB 2022 -
-      Workshop on Spatial Transcriptomics and cell-cell
-      communication modelling</a>.</li>
-  <li><strong>[July 2022]</strong> <a
-      href="https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_44.pdf">Poster</a> at <a
-      href="https://icml-compbio.github.io/index.html">ICML 2022 - Workshop on Computational
-      Biology</a> - <strong>Uncertainty Quantification for Atlas-Level Cell
-      Type Transfer</strong>.</li>
-  <li><strong>[April 2022]</strong> I will be an instructor at the Swiss Institute for Bioinformatics
-    <a href="https://www.sib.swiss/training/course/20220426_ADVSC">course</a> on <strong>Advanced topics in
-      single-cell analysis</strong> in Basel.
-  </li>
-</ul>
 
-<!-- {{ content }} -->
+<!-- {{ content }}
 
-<!-- {% assign posts = paginator.posts | default: site.posts %} -->
+{% assign posts = paginator.posts | default: site.posts %} -->
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <!-- <ul class="posts-list list-unstyled" role="list">
@@ -34,16 +14,16 @@ layout: page
     <article>
 
       {%- capture thumbnail -%}
-        {% if post.thumbnail-img %}
-          {{ post.thumbnail-img }}
-        {% elsif post.cover-img %}
-          {% if post.cover-img.first %}
-            {{ post.cover-img[0].first.first }}
-          {% else %}
-            {{ post.cover-img }}
-          {% endif %}
-        {% else %}
-        {% endif %}
+      {% if post.thumbnail-img %}
+      {{ post.thumbnail-img }}
+      {% elsif post.cover-img %}
+      {% if post.cover-img.first %}
+      {{ post.cover-img[0].first.first }}
+      {% else %}
+      {{ post.cover-img }}
+      {% endif %}
+      {% else %}
+      {% endif %}
       {% endcapture %}
       {% assign thumbnail=thumbnail | strip %}
 
@@ -61,9 +41,9 @@ layout: page
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
 
         {% if post.subtitle %}
-          <h3 class="post-subtitle">
+        <h3 class="post-subtitle">
           {{ post.subtitle | strip_html }}
-          </h3>
+        </h3>
         {% endif %}
       </a>
 
@@ -94,16 +74,16 @@ layout: page
         {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
+        <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
       </div>
       {% endunless %}
 
       {% if site.feed_show_tags != false and post.tags.size > 0 %}
       <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<ul class="d-inline list-inline" role="list">
+        <span>Tags:</span> -->
+<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
+<!-- <ul class="d-inline list-inline" role="list">
   {% for tag in post.tags %}
   <li class="list-inline-item">
     <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
