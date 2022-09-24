@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Giovanni Palla
 subtitle:
 ---
@@ -12,11 +12,11 @@ and the [Munich School for Data Science][3].
 [3]: https://www.mu-ds.de/
 
 ### News
-* **September, 2022** I will give a talk at the [ECCB 2022 - Workshop on Spatial Transcriptomics and cell-cell
+* **[September 2022]** I will give a talk at the [ECCB 2022 - Workshop on Spatial Transcriptomics and cell-cell
 communication modelling](https://eccb2022.org/ntb-w04/).
-* **July, 2022** Poster at [ICML 2022 - Workshop on Computational
+* **[July 2022]** [Poster](https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_44.pdf) at [ICML 2022 - Workshop on Computational
 Biology](https://icml-compbio.github.io/index.html) - **Uncertainty Quantification for Atlas-Level Cell
-Type Transfer**, [paper](https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_44.pdf)
-* **April, 2022** I will an instructor at the Swiss Institute for Bioinformatics
+Type Transfer**.
+* **[April 2022]** I will be an instructor at the Swiss Institute for Bioinformatics
 [course](https://www.sib.swiss/training/course/20220426_ADVSC) on **Advanced topics in
 single-cell analysis** in Basel.
