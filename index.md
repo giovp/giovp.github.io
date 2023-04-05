@@ -8,8 +8,8 @@ I'm a PhD student in [Fabian Theis' group][1], at the [Computational Health Cent
 and the [Munich School for Data Science][3]. I'm also a core developer of [scverse][4].
 
 
-[1]: https://www.helmholtz-munich.de/icb/research/labs/machine-learning/overview/index.html
-[2]: https://www.helmholtz-munich.de/computational-health-center/index.html
+[1]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab
+[2]: https://www.helmholtz-munich.de/en/computational-health-center
 [3]: https://www.mu-ds.de/
 [4]: https://scverse.org/people/
 
