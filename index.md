@@ -7,10 +7,14 @@ subtitle:
 I am a PhD student in [Fabian Theis' group][1], at the [Computational Health Center, Helmholtz Munich, Germany][2]
 and the [Munich School for Data Science][3]. I am also co-founder and core developer of [scverse][4].
 
-I am interested in Machine Learning and Software for Spatial and Tissue Biology.
-
 [vitae][cv] / [scholar][scholar] / [github][github] / [linkedin][linkedin]
 
+I am interested in **Machine Learning** and **Software** for **Spatial Biology**.
+
+I am the co-lead developer of the following Python packages:
+- [Moscot](https://moscot.readthedocs.io/): package for Optimal Transport applications in Single Cell Genomics.
+- [SpatialData](https://spatialdata.scverse.org/en/latest/): a data format and ecosystem for Spatial Omics Data, part of scverse.
+- [Squidpy](https://squidpy.readthedocs.io/): package for the analysis of Spatial Transcriptomics data, part of scverse.
 
 
 [1]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab
