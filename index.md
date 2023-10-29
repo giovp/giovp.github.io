@@ -11,11 +11,10 @@ and the [Munich School for Data Science][3]. I am also co-founder and core devel
 
 I am interested in **Machine Learning** and **Software** for **Spatial Biology**.
 
-I am the co-lead developer of the following Python packages:
-- [Moscot](https://moscot.readthedocs.io/): package for Optimal Transport applications in Single Cell Genomics.
+I am the co-lead developer of the following open-source Python packages:
+- [Moscot](https://moscot.readthedocs.io/): tools for Optimal Transport applications in Single Cell Genomics.
 - [SpatialData](https://spatialdata.scverse.org/en/latest/): a data format and ecosystem for Spatial Omics Data, part of scverse.
-- [Squidpy](https://squidpy.readthedocs.io/): package for the analysis of Spatial Transcriptomics data, part of scverse.
-
+- [Squidpy](https://squidpy.readthedocs.io/): tools for the analysis of Spatial Transcriptomics data, part of scverse.
 
 [1]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab
 [2]: https://www.helmholtz-munich.de/en/computational-health-center
