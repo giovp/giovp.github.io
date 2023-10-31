@@ -322,7 +322,7 @@ img {
 .navbar-custom .avatar-container {
   position: absolute;
   left: 50%;
-  height: 5rem;
+  height: 4rem;
   width: 3.125rem;
   bottom: -1.5rem;
   transition: opacity 0.5s ease-in-out;
@@ -349,6 +349,7 @@ img {
 }
 .navbar-custom .avatar-container .avatar-img {
   width: 100%;
+  transform: scale(1.3);
   {% unless site.round-avatar == false %}
     border-radius: 50%;
   {% endunless %}
