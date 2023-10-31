@@ -4,8 +4,7 @@ title: Giovanni Palla
 subtitle:
 ---
 
-I am a PhD student in [Fabian Theis' group][1], at the [Computational Health Center, Helmholtz Munich, Germany][2]
-and the [Munich School for Data Science][3]. I am also co-founder and core developer of [scverse][4].
+I am a PhD student in the group of [Fabian Theis][1], at the [Computational Health Center, Helmholtz Munich][2], Germany, and the [Munich School for Data Science][3]. I am also co-founder and core developer of [scverse][4].
 
 [vitae][cv] / [scholar][scholar] / [github][github] / [linkedin][linkedin]
 
@@ -13,8 +12,8 @@ I am interested in **Machine Learning** and **Software** for **Spatial Biology**
 
 I am the co-lead developer of the following open-source Python packages:
 - [Moscot](https://moscot.readthedocs.io/): tools for Optimal Transport applications in Single Cell Genomics.
-- [SpatialData](https://spatialdata.scverse.org/en/latest/): a data format and ecosystem for Spatial Omics Data, part of scverse.
-- [Squidpy](https://squidpy.readthedocs.io/): tools for the analysis of Spatial Transcriptomics data, part of scverse.
+- [SpatialData](https://spatialdata.scverse.org/en/latest/): a data format and ecosystem for Spatial Omics Data.
+- [Squidpy](https://squidpy.readthedocs.io/): analysis toolkit for Spatial Transcriptomics data.
 
 [1]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab
 [2]: https://www.helmholtz-munich.de/en/computational-health-center
