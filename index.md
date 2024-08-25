@@ -9,7 +9,7 @@ I am a PhD student in the group of [Fabian Theis][1], at the [Computational Heal
 [vitae][cv] / [scholar][scholar] / [github][github] / [linkedin][linkedin]
 
 I am interested in **Machine Learning** and **Software** for **Spatial Biology**.
-
+\\
 I am the co-lead developer of the following open-source Python packages:
 - [Moscot](https://moscot.readthedocs.io/): tools for Optimal Transport applications in Single Cell Genomics.
 - [SpatialData](https://spatialdata.scverse.org/en/latest/): a data format and ecosystem for Spatial Omics Data.
