@@ -32,7 +32,8 @@ html {
 
 body {
   font-family: 'Inconsolata', 'Times New Roman', serif;
-  font-size: 1.125rem;
+  font-size: 0.9rem;
+  /* font-size: 1.125rem; */
   color: var(--text-col);
   position: relative;
   background-color: var(--page-col);
@@ -49,7 +50,8 @@ body > main {
   flex: 1;
 }
 p {
-  line-height: 1.5;
+  line-height: 1.1;
+  /* line-height: 1.5; */
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -58,6 +60,18 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.1;
 }
 h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+h4 {
+  font-size: 0.9rem;
+}
+/* h1 {
   font-size: 2.25rem;
 }
 h2 {
@@ -68,7 +82,7 @@ h3 {
 }
 h4 {
   font-size: 1.125rem;
-}
+} */
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
