@@ -25,6 +25,17 @@ I am the co-lead developer of the following open-source Python packages:
 [github]: https://github.com/giovp
 [linkedin]: https://www.linkedin.com/in/giovanni-palla-25541578/
 
+{% for project in site.projects %}
+  {% include project-item.html 
+    title=project.title 
+    image=project.image 
+    description=project.description 
+    project_link=project.project_link 
+    video_link=project.video_link 
+    paper_link=project.paper_link 
+  %}
+{% endfor %}
+
 ### News
 * **[October 2023]** I am presenting a poster on [Moscot](https://moscot.readthedocs.io/) at [Single Cell Genomics 2023](https://conferences.weizmann.ac.il/SCG2023/single-cell-genomics-2023) in Engelberg, Switzerland.
 * **[July 2023]** I am presenting a poster on [Moscot](https://moscot.readthedocs.io/) and [SpatialData](https://spatialdata.scverse.org/en/latest/) at the Human Cell Atlas [General Meeting 2023](https://events.humancellatlas.org/2023gm), in Toronto.

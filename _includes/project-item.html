@@ -1,0 +1,22 @@
+<div class="research-item">
+    <div class="image-container">
+      <img src="{{ include.image }}" alt="{{ include.title }}" class="project-image">
+    </div>
+    <div class="project-description">
+      <h3>{{ include.title }}</h3>
+      <p>{{ include.description }}</p>
+      <p>
+        {% if include.project_link %}
+          <a href="{{ include.project_link }}">Project Page</a>
+        {% endif %}
+        {% if include.video_link %}
+          {% if include.project_link %} | {% endif %}
+          <a href="{{ include.video_link }}">Video</a>
+        {% endif %}
+        {% if include.paper_link %}
+          {% if include.project_link or include.video_link %} | {% endif %}
+          <a href="{{ include.paper_link }}">Paper</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>

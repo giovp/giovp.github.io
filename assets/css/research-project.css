@@ -1,0 +1,29 @@
+.research-item {
+    display: flex; /* Align the image and description side by side */
+    align-items: flex-start; /* Align items at the top */
+    background-color: #f8f9fa; /* Light background for the container */
+    border: 1px solid #ddd; /* Border around the container */
+    padding: 15px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the container */
+  }
+  
+  .image-container {
+    width: 150px; /* Fixed width for the image container */
+    height: 150px; /* Fixed height for the image container */
+    margin-right: 15px; /* Space between the image and the text */
+    flex-shrink: 0; /* Prevent the container from shrinking */
+    overflow: hidden; /* Ensure that any overflow is hidden */
+  }
+  
+  .project-image {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Cover the container without stretching */
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+  }
+  
+  .project-description {
+    flex-grow: 1; /* Allow the description to take up the remaining space */
+  }
+  
