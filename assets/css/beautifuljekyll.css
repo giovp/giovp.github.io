@@ -32,7 +32,8 @@ html {
 
 body {
   font-family: 'Inconsolata', 'Times New Roman', serif;
-  font-size: 1.125rem;
+  font-size: 0.9rem;
+  /* font-size: 1.125rem; */
   color: var(--text-col);
   position: relative;
   background-color: var(--page-col);
@@ -49,7 +50,8 @@ body > main {
   flex: 1;
 }
 p {
-  line-height: 1.5;
+  line-height: 1.2;
+  /* line-height: 1.5; */
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -58,6 +60,18 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.1;
 }
 h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+h4 {
+  font-size: 0.9rem;
+}
+/* h1 {
   font-size: 2.25rem;
 }
 h2 {
@@ -68,7 +82,7 @@ h3 {
 }
 h4 {
   font-size: 1.125rem;
-}
+} */
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
@@ -707,15 +721,17 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
   color: #FFF;
-  text-shadow: 1px 1px 3px #000;
+  /* text-shadow: 1px 1px 3px #000; */
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 3.125rem;
+  font-size: 1.5rem;
+  /* font-size: 3.125rem; */
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
-  font-size: 2.1875rem;
+  font-size: 1.5rem;
+  /* font-size: 2.1875rem; */
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
