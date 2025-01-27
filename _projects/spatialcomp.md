@@ -4,7 +4,7 @@ order: 1
 image: /assets/img/spatial-components.png
 description: |
   A perspective and review on open problems in tissue biology.
-project_link: /projects/project2
-video_link: /videos/project2
-paper_link: /papers/project2
+paper_link: https://www.nature.com/articles/s41587-021-01182-1
+journal: Nature Biotechnology
+year: 2022
 ---

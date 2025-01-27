@@ -12,6 +12,9 @@
         {% if include.paper_link %}
           {% if include.project_link or include.video_link %} | {% endif %}
           <a href="{{ include.paper_link }}">Paper</a>
+          {% if include.journal or include.year %}
+            ({% if include.journal %}{{ include.journal }}{% endif %}{% if include.journal and include.year %}, {% endif %}{% if include.year %}{{ include.year }}{% endif %})
+          {% endif %}
         {% endif %}
       </p>
     </div>

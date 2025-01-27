@@ -4,12 +4,13 @@ title: Giovanni Palla
 subtitle:
 ---
 
-I am a PhD student in the group of [Fabian Theis][1], at the [Computational Health Center, Helmholtz Munich][2], Germany, and the [Munich School for Data Science][3]. I am also co-founder and core developer of [scverse][4].
+I am a Research Scientist
+I have completed my PhD under the supervision of [Fabian Theis][1] at the [Computational Health Center, Helmholtz Munich][2] and the [Munich School for Data Science][3]. Additionally, I am co-founder and core developer of [scverse][4], an open-source ecosystem for single-cell data analysis.
 
 [vitae][cv] / [scholar][scholar] / [github][github] / [linkedin][linkedin]
 
-I am interested in **Machine Learning** and **Software** for **Spatial Biology**.
-\\
+I am interested in **AI** and **Software** for **Computational Biology**, [endurance sports](https://www.strava.com/athletes/75519614) and [books](https://www.goodreads.com/user/show/172611807-giovanni-palla).
+
 
 [1]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab
 [2]: https://www.helmholtz-munich.de/en/computational-health-center
@@ -29,11 +30,14 @@ I am interested in **Machine Learning** and **Software** for **Spatial Biology**
     description=project.description 
     project_link=project.project_link 
     video_link=project.video_link 
-    paper_link=project.paper_link 
+    paper_link=project.paper_link
+    journal=project.journal
+    year=project.year 
   %}
 {% endfor %}
 
 ### News
+* **[September 2024]** I have joined the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) AI/ML team as Research Scientist.
 * **[October 2023]** I am presenting a poster on [Moscot](https://moscot.readthedocs.io/) at [Single Cell Genomics 2023](https://conferences.weizmann.ac.il/SCG2023/single-cell-genomics-2023) in Engelberg, Switzerland.
 * **[July 2023]** I am presenting a poster on [Moscot](https://moscot.readthedocs.io/) and [SpatialData](https://spatialdata.scverse.org/en/latest/) at the Human Cell Atlas [General Meeting 2023](https://events.humancellatlas.org/2023gm), in Toronto.
 * **[June 2023]** I am joining the [BioML team](https://www.microsoft.com/en-us/research/theme/biomedical-ml/), at Microsoft Research New England in Boston, for 3 months.
