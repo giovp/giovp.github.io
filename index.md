@@ -4,7 +4,8 @@ title: Giovanni Palla
 subtitle:
 ---
 
-I am a Research Scientist
+I am a Research Scientist at the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) AI/ML team, working with Theo Karaletsos.
+
 I have completed my PhD under the supervision of [Fabian Theis][1] at the [Computational Health Center, Helmholtz Munich][2] and the [Munich School for Data Science][3]. Additionally, I am co-founder and core developer of [scverse][4], an open-source ecosystem for single-cell data analysis.
 
 [vitae][cv] / [scholar][scholar] / [github][github] / [linkedin][linkedin]
