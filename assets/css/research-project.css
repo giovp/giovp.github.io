@@ -5,7 +5,8 @@
     border: none; /* Remove the visible border */
     padding: 10px; /* Reduced padding inside the container */
     border-radius: 4px; /* Slightly less rounded corners */
-    margin-bottom: 15px; /* Reduced space below the container */
+    margin: 1px; /* Reduced space below the container */
+    margin-right: 1px; /* Reduced space below the container */
   }
   
   .image-container {
@@ -27,5 +28,6 @@
     flex-grow: 1; /* Allow the description to take up the remaining space */
     font-size: 0.95em; /* Slightly smaller font size for a more compact look */
     line-height: 1.4; /* Adjust line height for better readability */
+    margin: 1px; /* Reduced space below the container */
+    margin-right: 1px; /* Reduced space below the container */
   }
-  

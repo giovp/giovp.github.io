@@ -10,10 +10,6 @@ I am a PhD student in the group of [Fabian Theis][1], at the [Computational Heal
 
 I am interested in **Machine Learning** and **Software** for **Spatial Biology**.
 \\
-I am the co-lead developer of the following open-source Python packages:
-- [Moscot](https://moscot.readthedocs.io/): tools for Optimal Transport applications in Single Cell Genomics.
-- [SpatialData](https://spatialdata.scverse.org/en/latest/): a data format and ecosystem for Spatial Omics Data.
-- [Squidpy](https://squidpy.readthedocs.io/): analysis toolkit for Spatial Transcriptomics data.
 
 [1]: https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab
 [2]: https://www.helmholtz-munich.de/en/computational-health-center
@@ -25,7 +21,8 @@ I am the co-lead developer of the following open-source Python packages:
 [github]: https://github.com/giovp
 [linkedin]: https://www.linkedin.com/in/giovanni-palla-25541578/
 
-{% for project in site.projects %}
+{% assign sorted_projects = site.projects | sort: 'order' | reverse %}
+{% for project in sorted_projects %}
   {% include project-item.html 
     title=project.title 
     image=project.image 

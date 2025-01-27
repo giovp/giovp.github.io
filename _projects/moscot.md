@@ -1,9 +1,9 @@
 ---
-title: Project Title 1
-image: /assets/img/cotton_candy.png
+title: Moscot
+order: 4
+image: /assets/img/moscot.png
 description: |
-  This is a brief description of Project 1. It summarizes what the project is about.
-project_link: /projects/project1
-video_link: /videos/project1
-paper_link: /papers/project1
+  A framework for mapping cells in time and space with optimal transport.
+project_link: https://moscot.readthedocs.io/
+paper_link: https://www.biorxiv.org/content/10.1101/2023.05.11.540374v2
 ---

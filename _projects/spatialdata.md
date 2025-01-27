@@ -1,9 +1,10 @@
 ---
-title: Project Title 2
-image: /assets/img/cotton_candy.png
+title: SpatialData
+order: 3
+image: /assets/img/spatialdata.png
 description: |
-  This is a brief description of Project 2. It summarizes what the project is about.
-project_link: /projects/project2
+  An open and universal framework for multi-modal spatial omics data.
+project_link: https://spatialdata.scverse.org/en/latest/
 video_link: /videos/project2
 paper_link: /papers/project2
 ---
