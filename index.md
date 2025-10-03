@@ -38,8 +38,8 @@ I am interested in **AI** and **Software** for **Computational Biology**, [endur
 {% endfor %}
 
 ### News
-* **[November 2025]** I am co-organizing the [2nd scverse conference](https://scverse.org/conference2025) @ Stanford, California.
-* **[April 2025]** I am co-organizing the [Learning Meaningful Representations of Life](https://www.lmrl.org/) workshop @ ICML 2025.
+* **[September 2025]** I am co-organizing the [2nd scverse conference](https://scverse.org/conference2025) at Stanford. I will be chairing the panel on [Agentic Workflows in Bioinformatics](https://scverse.org/conference2025/speakers).
+* **[April 2025]** I am co-organizing the workshop [Learning Meaningful Representation of Life](https://www.lmrl.org/) at ICLR 2025 in Singapore.
 * **[September 2024]** I have joined the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) AI/ML team as Research Scientist.
 * **[October 2023]** I am presenting a poster on [Moscot](https://moscot.readthedocs.io/) at [Single Cell Genomics 2023](https://conferences.weizmann.ac.il/SCG2023/single-cell-genomics-2023) in Engelberg, Switzerland.
 * **[July 2023]** I am presenting a poster on [Moscot](https://moscot.readthedocs.io/) and [SpatialData](https://spatialdata.scverse.org/en/latest/) at the Human Cell Atlas [General Meeting 2023](https://events.humancellatlas.org/2023gm), in Toronto.
