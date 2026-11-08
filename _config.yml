@@ -131,32 +131,21 @@ navbar-var-length: false
 #keywords: "my,list,of,keywords"
 
 ######################################
-# --- Colours / background image --- #
+# --- Colours / band --- #
 ######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
+# The site uses a light "paper" palette (cream background, ink text) that is
+# defined in /assets/css/site.css. The only colour exposed here is the band
+# behind the avatar at the top of every page.
 
-navbar-col: "#eec0c8"
-navbar-text-col: "#000000"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#000000"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#eec0c8"
-footer-text-col: "#777777"
-footer-link-col: "#000000"
-footer-hover-col: "#0085A1"
+band-col: "#eec0c8"
 
-# Alternatively, the navbar, footer, and page background can be set to an image
-# instead of colour
-
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+# Light/dark toggle: the palette for dark mode lives in site.css under
+# html[data-theme="dark"]. Visitors' choice is remembered in localStorage and
+# defaults to their system preference.
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
+#mobile-theme-col: "#eec0c8"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 #site-css:

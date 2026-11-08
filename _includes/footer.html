@@ -1,47 +1,59 @@
-<footer>
-  <div class="container-md beautiful-jekyll-footer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-      {% include social-networks-links.html %}
-      {% if page.footer-extra %}
-        <div class="footer-custom-content">
-          {% for file in page.footer-extra %}
-            {% include {{ file }} %}
-          {% endfor %}
-        </div>
-      {% endif %}
-      <p class="copyright text-muted">
-      {% if site.author %}
-        {{ site.author }}
-        &nbsp;&bull;&nbsp;
-      {% endif %}
-      {{ site.time | date: '%Y' }}
+<footer class="site-footer">
+  {% if site.social-network-links %}
+  <ul class="footer-links">
+    {%- for network in site.social-network-links -%}
+      {%- assign key = network[0] -%}
+      {%- assign value = network[1] -%}
+      {%- if key == "rss" -%}
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+      {%- elsif key == "email" -%}
+        <li><a href="mailto:{{ value }}">Email</a></li>
+      {%- elsif key == "calendly" -%}
+        <li><a href="https://calendly.com/{{ value }}" rel="noopener">Calendly</a></li>
+      {%- elsif key == "google-scholar" -%}
+        <li><a href="https://scholar.google.com/citations?{{ value }}" rel="noopener">Scholar</a></li>
+      {%- elsif key == "ORCID" -%}
+        <li><a href="https://orcid.org/{{ value }}" rel="noopener">ORCID</a></li>
+      {%- elsif key == "github" -%}
+        <li><a href="https://github.com/{{ value }}" rel="noopener">GitHub</a></li>
+      {%- elsif key == "twitter" -%}
+        <li><a href="https://twitter.com/{{ value }}" rel="noopener">Twitter</a></li>
+      {%- elsif key == "bluesky" -%}
+        <li><a href="https://bsky.app/profile/{{ value }}" rel="noopener">Bluesky</a></li>
+      {%- elsif key == "mastodon" -%}
+        <li><a href="https://{{ value }}" rel="noopener">Mastodon</a></li>
+      {%- elsif key == "linkedin" -%}
+        <li><a href="https://www.linkedin.com/in/{{ value }}" rel="noopener">LinkedIn</a></li>
+      {%- elsif key == "strava" -%}
+        <li><a href="https://www.strava.com/athletes/{{ value }}" rel="noopener">Strava</a></li>
+      {%- elsif key == "youtube" -%}
+        <li><a href="https://www.youtube.com/{{ value }}" rel="noopener">YouTube</a></li>
+      {%- elsif key == "instagram" -%}
+        <li><a href="https://instagram.com/{{ value }}" rel="noopener">Instagram</a></li>
+      {%- elsif key == "medium" -%}
+        <li><a href="https://medium.com/@{{ value }}" rel="noopener">Medium</a></li>
+      {%- elsif key == "telephone" -%}
+        <li><a href="tel:{{ value }}">{{ value }}</a></li>
+      {%- else -%}
+        <li><a href="https://{{ key }}.com/{{ value }}" rel="noopener">{{ key | capitalize }}</a></li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+  {% endif %}
 
-      {% if site.url-pretty %}
-        &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '/' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
-        </span>
-      {% endif %}
-
-      {% if site.matomo %}
-        {% if site.matomo.opt-out %}
-          &nbsp;&bull;&nbsp;
-          <a href="http://{{- site.matomo.uri -}}/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
-        {% endif %}
-      {% endif%}
-
-      {% if site.edit_page_button and site.github.repository_url %}
-        &nbsp;&bull;&nbsp;
-        <a title="Edit this page on GitHub" href="{{ site.github.repository_url }}/edit/{{ site.github.source.branch }}/{{ page.path }}" class="text_muted">Edit page</a>
-       {% endif%}
-
-      </p>
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
-        Powered by
-        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
-      </p>{% endunless %}
-      </div>
+  {% if page.footer-extra %}
+    <div class="footer-custom-content">
+      {% for file in page.footer-extra %}
+        {% include {{ file }} %}
+      {% endfor %}
     </div>
-  </div>
+  {% endif %}
+
+  <p class="copyright">
+    {% if site.author %}{{ site.author }} &nbsp;&middot;&nbsp; {% endif %}{{ site.time | date: '%Y' }}
+    {% if site.url-pretty %}
+      &nbsp;&middot;&nbsp;
+      <a href="{% if site.url-canonical %}{{ site.url-canonical }}{% else %}{{ '/' | absolute_url }}{% endif %}">{{ site.url-pretty }}</a>
+    {% endif %}
+  </p>
 </footer>
