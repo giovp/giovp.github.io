@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giovanni Palla</title>
+  <meta name="description" content="Research Scientist at the Chan Zuckerberg Initiative AI/ML team. AI and software for computational biology.">
+  <meta name="author" content="Giovanni Palla">
+
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "dark" || t === "light") {
+          document.documentElement.setAttribute("data-theme", t);
+        } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+
+<body>
+  <header class="band">
+    <button class="toggle" id="theme-toggle" type="button" aria-label="Toggle colour scheme" title="Toggle colour scheme">
+      <span class="toggle-icon" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <div class="avatar-wrap">
+    <a class="avatar" href="./" aria-label="Giovanni Palla">
+      <img src="assets/img/cotton_candy.png" alt="Giovanni Palla">
+    </a>
+  </div>
+
+  <main>
+    <h1>Giovanni Palla</h1>
+
+    <p>I am a Research Scientist at the <a href="https://chanzuckerberg.com/">Chan Zuckerberg Initiative</a> AI/ML team.</p>
+
+    <p>I have completed my PhD under the supervision of <a href="https://www.helmholtz-munich.de/en/icb/research-groups/theis-lab">Fabian Theis</a> at the <a href="https://www.helmholtz-munich.de/en/computational-health-center">Computational Health Center, Helmholtz Munich</a> and the <a href="https://www.mu-ds.de/">Munich School for Data Science</a>. Additionally, I am co-founder and core developer of <a href="https://scverse.org/people/">scverse</a>, an open-source ecosystem for single-cell data analysis.</p>
+
+    <p class="linkrow"><a href="assets/vitae.pdf">vitae</a> / <a href="https://scholar.google.com/citations?user=20uwxzkAAAAJ&amp;hl=en">scholar</a> / <a href="https://github.com/giovp">github</a> / <a href="https://www.linkedin.com/in/giovanni-palla-25541578/">linkedin</a></p>
+
+    <p>I am interested in <strong>AI</strong> and <strong>Software</strong> for <strong>Computational Biology</strong>, <a href="https://www.strava.com/athletes/75519614">endurance sports</a> and <a href="https://www.goodreads.com/user/show/172611807-giovanni-palla">books</a>.</p>
+
+    <section class="work">
+      <article class="item">
+        <div class="thumb"><img src="assets/img/hescape.png" alt="Hescape" loading="lazy"></div>
+        <div class="body">
+          <h2>Hescape</h2>
+          <p>A large scale benchmark for cross-modal learning of histology and spatial expressions.</p>
+          <p class="links"><a href="https://github.com/peng-lab/hescape">Project Page</a><span class="sep">|</span><a href="https://arxiv.org/abs/2508.01490">Paper</a><span class="venue">(ICCV - CVAMD, 2025)</span></p>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="thumb"><img src="assets/img/moscot.png" alt="Moscot" loading="lazy"></div>
+        <div class="body">
+          <h2>Moscot</h2>
+          <p>A framework for mapping cells in time and space with optimal transport.</p>
+          <p class="links"><a href="https://moscot.readthedocs.io/">Project Page</a><span class="sep">|</span><a href="https://www.nature.com/articles/s41586-024-08453-2">Paper</a><span class="venue">(Nature, 2025)</span></p>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="thumb"><img src="assets/img/spatialdata.png" alt="SpatialData" loading="lazy"></div>
+        <div class="body">
+          <h2>SpatialData</h2>
+          <p>An open and universal framework for multi-modal spatial omics data.</p>
+          <p class="links"><a href="https://spatialdata.scverse.org/en/latest/">Project Page</a><span class="sep">|</span><a href="https://www.nature.com/articles/s41592-024-02212-x">Paper</a><span class="venue">(Nature Methods, 2024)</span></p>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="thumb"><img src="assets/img/squidpy.png" alt="Squidpy" loading="lazy"></div>
+        <div class="body">
+          <h2>Squidpy</h2>
+          <p>Spatial single-cell analysis in Python.</p>
+          <p class="links"><a href="https://squidpy.readthedocs.io/en/stable/">Project Page</a><span class="sep">|</span><a href="https://www.nature.com/articles/s41592-021-01358-2">Paper</a><span class="venue">(Nature Methods, 2022)</span></p>
+        </div>
+      </article>
+
+      <article class="item">
+        <div class="thumb"><img src="assets/img/spatial-components.png" alt="Spatial Components of Tissue Variation" loading="lazy"></div>
+        <div class="body">
+          <h2>Spatial Components of Tissue Variation</h2>
+          <p>A perspective and review on open problems in tissue biology.</p>
+          <p class="links"><a href="https://www.nature.com/articles/s41587-021-01182-1">Paper</a><span class="venue">(Nature Biotechnology, 2022)</span></p>
+        </div>
+      </article>
+    </section>
+
+    <h2 class="label">News</h2>
+
+    <ul class="news">
+      <li><span class="date">September 2025</span><p>I am co-organizing the <a href="https://scverse.org/conference2025">2nd scverse conference</a> at Stanford. I will be chairing the panel on <a href="https://scverse.org/conference2025/speakers">Agentic Workflows in Bioinformatics</a>.</p></li>
+      <li><span class="date">April 2025</span><p>I am co-organizing the workshop <a href="https://www.lmrl.org/">Learning Meaningful Representation of Life</a> at ICLR 2025 in Singapore.</p></li>
+      <li><span class="date">September 2024</span><p>I have joined the <a href="https://chanzuckerberg.com/">Chan Zuckerberg Initiative</a> AI/ML team as Research Scientist.</p></li>
+      <li><span class="date">October 2023</span><p>I am presenting a poster on <a href="https://moscot.readthedocs.io/">Moscot</a> at <a href="https://conferences.weizmann.ac.il/SCG2023/single-cell-genomics-2023">Single Cell Genomics 2023</a> in Engelberg, Switzerland.</p></li>
+      <li><span class="date">July 2023</span><p>I am presenting a poster on <a href="https://moscot.readthedocs.io/">Moscot</a> and <a href="https://spatialdata.scverse.org/en/latest/">SpatialData</a> at the Human Cell Atlas <a href="https://events.humancellatlas.org/2023gm">General Meeting 2023</a>, in Toronto.</p></li>
+      <li><span class="date">June 2023</span><p>I am joining the <a href="https://www.microsoft.com/en-us/research/theme/biomedical-ml/">BioML team</a>, at Microsoft Research New England in Boston, for 3 months.</p></li>
+      <li><span class="date">February 2023</span><p>Talk at the <a href="https://smpgd2023.sciencesconf.org/">Statistical Methods for Post Genomic Data workshop</a>, Ghent, 2022.</p></li>
+      <li><span class="date">December 2022</span><p><a href="https://openreview.net/forum?id=3ZcryDcnoW2">Contributed talk</a> at <a href="https://www.lmrl.org/papers2022">NeurIPS 2022 - LMRL workshop</a> - <strong>Modeling Single-Cell Dynamics Using Unbalanced Parameterized Monge Maps</strong>.</p></li>
+      <li><span class="date">September 2022</span><p>Talk at the <a href="https://eccb2022.org/ntb-w04/">ECCB 2022 - Workshop on Spatial Transcriptomics and cell-cell communication modelling</a>.</p></li>
+      <li><span class="date">August 2022</span><p>Contributed to workshop on <a href="https://uppsala.instructure.com/courses/58516/pages/schedule">Spatial Omics Data Analysis 2022</a>.</p></li>
+      <li><span class="date">July 2022</span><p><a href="https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_44.pdf">Poster</a> at <a href="https://icml-compbio.github.io/index.html">ICML 2022 - Workshop on Computational Biology</a> - <strong>Uncertainty Quantification for Atlas-Level Cell Type Transfer</strong>.</p></li>
+      <li><span class="date">May 2022</span><p>Organized virtual workshop <strong>Spatial transcriptomics data analysis in Python</strong> <a href="https://www.singlecell.de/index.php/events/scog-virtual-workshop-spatial-transcriptomics-data-analysis-in-python/">Single Cell Omics Germany</a>.</p></li>
+      <li><span class="date">April 2022</span><p>Instructor at the Swiss Institute for Bioinformatics <a href="https://www.sib.swiss/training/course/20220426_ADVSC">course</a> on <strong>Advanced topics in single-cell analysis</strong> in Basel.</p></li>
+    </ul>
+  </main>
+
+  <footer>
+    <ul class="links">
+      <li><a href="https://github.com/giovp">GitHub</a></li>
+      <li><a href="https://twitter.com/g_palla1">Twitter</a></li>
+      <li><a href="https://scholar.google.com/citations?user=20uwxzkAAAAJ&amp;hl=en">Scholar</a></li>
+      <li><a href="https://orcid.org/0000-0002-8004-4462">ORCID</a></li>
+      <li><a href="https://www.linkedin.com/in/giovanni-palla-25541578/">LinkedIn</a></li>
+    </ul>
+    <p class="colophon">Giovanni Palla &middot; <span id="year">2026</span></p>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
