@@ -176,7 +176,7 @@ strong {
   display: grid;
   grid-template-columns: 5.5rem 1fr;
   gap: 1.15rem;
-  align-items: center;
+  align-items: start;
   padding: 1.1rem 0;
   border-top: 1px solid var(--rule);
 }
@@ -230,10 +230,9 @@ html[data-theme="dark"] .thumb {
 }
 
 .links {
-  margin: 0.4rem 0 0;
-  font-size: 0.7rem;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  margin: 0.45rem 0 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.01em;
   color: var(--muted);
 }
 
