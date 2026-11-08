@@ -229,9 +229,11 @@ html[data-theme="dark"] .thumb {
   color: var(--ink-2);
 }
 
-.links {
+.links,
+.body .links {
   margin: 0.45rem 0 0;
-  font-size: 0.82rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
   letter-spacing: 0.01em;
   color: var(--muted);
 }
