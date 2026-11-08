@@ -9,8 +9,8 @@
 # --- Required options --- #
 ############################
 
-# Name of website
-title: ""
+# Name of website (used in <title> and social previews)
+title: "Giovanni Palla"
 
 # Your name to show in the footer
 author: Giovanni Palla
